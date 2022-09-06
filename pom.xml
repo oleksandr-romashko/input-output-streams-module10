@@ -1,13 +1,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.example</groupId>
-  <artifactId>input-outpu-streams</artifactId>
+  <groupId>global.goit.romashko.io</groupId>
+  <artifactId>io-streams</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>IO streams for Module 10</name>
+  <url>https://github.com/oleksandr-romashko/input-output-streams-module10</url>
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
-  <version>1.0-SNAPSHOT</version>
-  <name>Archetype - input-outpu-streams</name>
-  <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+    </dependency>
+  </dependencies>
 </project>
