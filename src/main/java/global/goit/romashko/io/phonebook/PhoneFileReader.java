@@ -1,4 +1,4 @@
-package global.goit.romashko.io;
+package global.goit.romashko.io.phonebook;
 
 import java.io.FileReader;
 import java.io.IOException;
